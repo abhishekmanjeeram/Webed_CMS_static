@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>create post</title>
+ <style>
+  
+  .row
+  {
+    background-color: transparent;
+    width: 105vw;
+    height: 100vh;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+   
+  }
+  form{
+    background-color: transparent;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-shadow:15px 15px 90px rgb(0, 0, 0) ;
+    border-radius: 10px;
+    height: 90vh;
+    
+    
+  }
+  button {
+      background-image: radial-gradient(rgb(68, 103, 199), rgb(0, 55, 158));
+      border-radius: 20px;
+      border-width: 0px;
+    }
+
+    button:hover {
+      background-image: radial-gradient(rgb(68, 87, 168), rgb(2, 22, 131));
+      border-radius: 5px;
+      text-decoration-color: blue;
+    }
+
+  nav {
+      background-image: linear-gradient(rgb(45, 99, 247), rgb(3, 0, 49));
+    }
+    .card {
+      background-color: transparent;
+      color: white;
+      padding-right: 10px;
+      padding-left: 10px;
+      box-shadow: 15px 15px 90px rgb(80, 80, 80);
+      border-radius: 10px;
+      max-height: 50vh;
+    }
+    h5{
+   color: white;
+ }
+  body
+  {
+    background: url(assets/IMG_20220113_225004.jpg) no-repeat  center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover ;
+    -o-background-size:cover ;
+    background-size:cover ;
+  }
+  textarea
+  {
+    background-color: transparent ;
+  }
+  label{
+    color: white;
+  }
+  
+ </style>
+  
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">WEBED</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="editor.html">Editor</a>
+          </li>
+
+
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-md-7 mx-auto justify-content-center shadow-20px" > 
+      <form >
+        <h1 style="font-weight: 400; color: rgb(226, 226, 226);" class="text-center " >Create content</h1>
+        <div class="form-group">
+          <label for="headline">Blog headline</label>
+          <textarea class="form-control" id="area1" placeholder="headline" rows="1"></textarea>
+          
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Blog Content</label>
+          <textarea class="form-control" id="area2"placeholder="Write something" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1">Author</label>
+          <textarea class="form-control" id="area1" placeholder="author" rows="1"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary d-block">Publish</button>
+        <div style="height: 10px;" class="space"></div>
+      </form>
+    
+    </div>
+  </div>
+  
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

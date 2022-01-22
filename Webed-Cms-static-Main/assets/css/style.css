@@ -1,0 +1,12 @@
+/* '*' means this applies to all the elements in the html file */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    position:relative;
+}
+.space {
+    margin-bottom: 30px;
+  }
+  
